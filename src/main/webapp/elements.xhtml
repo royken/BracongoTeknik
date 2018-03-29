@@ -83,6 +83,8 @@
                             <p:inputText  id="nomadd" value="#{elementBean.elements.nom}" required="true" requiredMessage="Le nom est obligatoire"/>
                             <h:outputText value="Guide : "/> 
                             <p:inputText  id="guideadd" value="#{elementBean.elements.guideSaisie}" />
+                            <h:outputText value="Unité : "/> 
+                            <p:inputText  id="uniteadd" value="#{elementBean.elements.unite}" />
                             <p:outputLabel for="typeadd" value="Type :" />
                             <p:selectOneMenu id="typeadd" value="#{elementBean.elements.valeurType}" style="min-width:200px; width:315px;" required="true" requiredMessage="Le type est obligatoire">
                                 <f:selectItem itemLabel="Choisir" itemValue="" />
@@ -135,6 +137,8 @@
                             <p:inputText  id="nommod" value="#{elementBean.elements.nom}" required="true" requiredMessage="Le nom est obligatoire"/>
                             <h:outputText value="Guide : "/> 
                             <p:inputText  id="guidemod" value="#{elementBean.elements.guideSaisie}" />
+                            <h:outputText value="Unité : "/> 
+                            <p:inputText  id="unitemod" value="#{elementBean.elements.unite}" />
                             <p:outputLabel for="typemod" value="Type :" />
                             <p:selectOneMenu id="typemod" value="#{elementBean.elements.valeurType}" style="min-width:200px; width:315px;" required="true" requiredMessage="Le type est obligatoire">
                                 <f:selectItem itemLabel="Choisir" itemValue="" />

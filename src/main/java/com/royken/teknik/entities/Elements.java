@@ -50,11 +50,11 @@ public class Elements implements Serializable {
     @JoinColumn(name = "SOUSORGANES_ID")
     private SousOrganes sousOrganes;
     
-    @Column(columnDefinition = "tinyint(1) default true", name = "HASBORNS")
-    private boolean hasBorns;
+    @Column(columnDefinition = "BIT default 1", name = "HASBORNS", length = 1)
+    private boolean hasBorns ;
 
-    @Column(columnDefinition = "tinyint(1) default true", name = "CRITERIAALPHA")
-    private boolean criteriaAlpha;
+    @Column(columnDefinition = "BIT default 1", name = "CRITERIAALPHA", length = 1)
+    private boolean criteriaAlpha ;
 
     @Column
     private int valMin;
